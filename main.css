@@ -944,3 +944,47 @@ html[lang="en"] .en-text {
 
 
 
+
+.hero-names {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap; /* يمنع نزول الأسماء تحت */
+  gap: 12px;
+  margin: 6px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.name-left,
+.name-right {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 5vw, 48px); /* حجم مرن حسب الجهاز */
+  color: var(--gold-dark);
+  letter-spacing: 0.05em;
+  text-shadow:
+    1px 1px 0 var(--gold-pale),
+    0 0 30px rgba(201, 168, 76, 0.2);
+  white-space: nowrap; /* يمنع تقسيم الاسم */
+}
+
+.ampersand {
+  font-family: var(--font-italic);
+  font-style: italic;
+  font-size: clamp(28px, 6vw, 60px);
+  color: var(--gold);
+  opacity: 0.75;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
