@@ -1,10 +1,10 @@
 /* ========================= CONFIGURATION ========================= */
 const CONFIG = {
   // أسماء العروسين
-  groomName: "Mohamed",
-  brideName: "Basmala",
-  groomNameAr: "محمد",
-  brideNameAr: "بسملة",
+  groomName: "Ronaldo",
+  brideName: "Gorgenia",
+  groomNameAr: "رونالدو",
+  brideNameAr: "جورجينا",
 
   // تاريخ ووقت ومكان الزفاف
   weddingDate: "June 28, 2026",
